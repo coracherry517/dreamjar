@@ -1,0 +1,38 @@
+{
+  "name": "dreamjar",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A local-first, multilingual app for building money habits: wish list, success journal, income jars and compound interest.",
+  "homepage": "https://coracherry517.github.io/dreamjar/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coracherry517/dreamjar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coracherry517/dreamjar/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dexie": "^4.0.8",
+    "dexie-react-hooks": "^1.1.7",
+    "i18next": "^23.11.5",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^14.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.2",
+    "vite": "^5.3.1"
+  }
+}
