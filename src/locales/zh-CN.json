@@ -1,0 +1,91 @@
+{
+  "app": {
+    "title": "梦想罐",
+    "tagline": "写下愿望，记录成功，让每一笔收入装进三个罐子。",
+    "privacy": "你输入的所有内容只保存在这台设备的浏览器里，不会上传到任何服务器。",
+    "disclaimer": "这是培养理财习惯的学习工具，不构成投资建议。"
+  },
+  "nav": {
+    "label": "功能分区",
+    "wishes": "愿望",
+    "journal": "成功日记",
+    "budget": "收入分罐",
+    "calculator": "复利计算",
+    "settings": "设置"
+  },
+  "common": { "delete": "删除" },
+  "wishes": {
+    "heading": "愿望与目标",
+    "intro": "写下最多 10 个你想要的东西，再给最重要的 3 个点亮星标：它们会变成有金额、有图片、有进度条的目标。",
+    "placeholder": "你想要的东西，比如一辆新自行车",
+    "add": "添加愿望",
+    "count": "已写 {{n}} / {{max}} 个愿望",
+    "limit": "已经有 10 个愿望了。删掉一个，或者选出最重要的 3 个。",
+    "starLimit": "已经有 3 个目标了，请先取消一个。",
+    "empty": "清单还是空的。从脑海里冒出的第一个愿望开始写吧。",
+    "topHeading": "最重要的 3 个目标",
+    "otherHeading": "其他愿望",
+    "makeGoal": "设为目标",
+    "unstar": "移回愿望清单",
+    "addImage": "为这个目标添加一张图片",
+    "target": "目标金额",
+    "progress": "已存 {{saved}}，目标 {{target}}",
+    "depositPlaceholder": "存入金额",
+    "deposit": "存入",
+    "countdown_other": "还剩 {{count}} 小时，去迈出第一步。",
+    "overdue": "72 小时已过。今天就去做一件小事吧。",
+    "firstStep": "我已迈出第一步",
+    "firstStepDone": "第一步已完成，继续加油。"
+  },
+  "journal": {
+    "heading": "成功日记",
+    "intro": "每天至少写下 5 件自己做成的事，再小也算。时常翻看，会越来越有信心。",
+    "placeholder": "今天做成的一件事",
+    "add": "记下",
+    "today": "今天：{{n}} / {{goal}}",
+    "streak_other": "已连续 {{count}} 天",
+    "empty": "还没有记录。今天有什么事做得不错？"
+  },
+  "budget": {
+    "heading": "收入分罐",
+    "intro": "每次有钱进来，马上分成三份：一份放进永远不花的罐子让它生钱，一份存给目标，剩下的放心花。",
+    "goose": "金鹅账户",
+    "dream": "目标储蓄",
+    "spend": "日常花销",
+    "gooseDesc": "永远不花，只用来投资，让它持续“下金蛋”。",
+    "dreamDesc": "用来实现最重要的 3 个目标。",
+    "spendDesc": "可以安心花掉的部分。",
+    "ratio": "分配比例",
+    "ratioError": "三部分加起来是 {{sum}}%，请调整为 100%。",
+    "amount": "收到的金额",
+    "note": "来源（选填）",
+    "add": "分配并保存",
+    "history": "记录",
+    "empty": "还没有收入记录。下次收到钱时记在这里。"
+  },
+  "calc": {
+    "heading": "复利计算",
+    "intro": "看看一笔本金加上每月的小额投入，在利滚利之下会变成多少。",
+    "principal": "初始金额",
+    "monthly": "每月投入",
+    "rate": "年化收益率（%）",
+    "years": "年数",
+    "result": "{{years}} 年后。你共投入 {{contributed}}，利息带来 {{interest}}。",
+    "year": "年",
+    "contributed": "累计投入",
+    "interest": "利息",
+    "total": "总额"
+  },
+  "settings": {
+    "heading": "设置",
+    "language": "语言",
+    "currency": "货币",
+    "backup": "备份",
+    "backupIntro": "数据只存在这台设备上。记得定期导出备份文件；换手机或浏览器时导入即可。",
+    "export": "导出备份",
+    "import": "导入备份",
+    "importConfirm": "导入会用备份替换当前全部数据，确定继续吗？",
+    "importDone": "备份已导入。",
+    "importError": "这不是梦想罐的备份文件，请选择从本应用导出的文件。"
+  }
+}
