@@ -1,0 +1,93 @@
+{
+  "app": {
+    "title": "DreamJar",
+    "tagline": "Name your wishes, count your wins, and let every paycheck fill three jars.",
+    "privacy": "Everything you enter stays in this browser on this device. Nothing is sent to a server.",
+    "disclaimer": "A learning tool for building money habits, not financial advice."
+  },
+  "nav": {
+    "label": "Sections",
+    "wishes": "Wishes",
+    "journal": "Success journal",
+    "budget": "Income jars",
+    "calculator": "Compound interest",
+    "settings": "Settings"
+  },
+  "common": { "delete": "Delete" },
+  "wishes": {
+    "heading": "Wishes and goals",
+    "intro": "Write down up to 10 things you want. Then star the 3 that matter most: those become goals with a price, a picture and a savings bar.",
+    "placeholder": "Something you want, e.g. a new bike",
+    "add": "Add wish",
+    "count": "{{n}} of {{max}} wishes",
+    "limit": "You have 10 wishes. Delete one or star your top 3.",
+    "starLimit": "You already have 3 goals. Unstar one first.",
+    "empty": "Your list is empty. Start with the first wish that comes to mind.",
+    "topHeading": "Your top 3 goals",
+    "otherHeading": "Other wishes",
+    "makeGoal": "Make this a goal",
+    "unstar": "Move back to wishes",
+    "addImage": "Add a picture of this goal",
+    "target": "Target amount",
+    "progress": "{{saved}} saved of {{target}}",
+    "depositPlaceholder": "Amount to add",
+    "deposit": "Add to savings",
+    "countdown_one": "{{count}} hour left to take a first step.",
+    "countdown_other": "{{count}} hours left to take a first step.",
+    "overdue": "The 72 hours are up. Take one small step today anyway.",
+    "firstStep": "I took the first step",
+    "firstStepDone": "First step taken. Keep going."
+  },
+  "journal": {
+    "heading": "Success journal",
+    "intro": "Every day, write down at least five things you did well, however small. Reading them back builds confidence.",
+    "placeholder": "Something that went well today",
+    "add": "Add",
+    "today": "Today: {{n}} of {{goal}}",
+    "streak_one": "{{count}}-day streak",
+    "streak_other": "{{count}}-day streak",
+    "empty": "No entries yet. What went well today?"
+  },
+  "budget": {
+    "heading": "Income jars",
+    "intro": "Each time money comes in, split it straight away: part to a jar you never spend (it grows into more money), part to your goals, and the rest to spend freely.",
+    "goose": "Golden goose",
+    "dream": "Goals",
+    "spend": "Spending",
+    "gooseDesc": "Never spent. Only invested so it keeps laying eggs.",
+    "dreamDesc": "For your top 3 goals.",
+    "spendDesc": "Yours to enjoy, guilt-free.",
+    "ratio": "Split ratio",
+    "ratioError": "The three parts add up to {{sum}}%. Make them add up to 100%.",
+    "amount": "Amount received",
+    "note": "Where it came from (optional)",
+    "add": "Split and save",
+    "history": "History",
+    "empty": "No income recorded yet. Add the next amount you receive."
+  },
+  "calc": {
+    "heading": "Compound interest",
+    "intro": "See how a starting sum and a small monthly amount grow when the interest earns interest too.",
+    "principal": "Starting amount",
+    "monthly": "Added each month",
+    "rate": "Yearly return (%)",
+    "years": "Years",
+    "result": "After {{years}} years. You put in {{contributed}}; interest added {{interest}}.",
+    "year": "Year",
+    "contributed": "Paid in",
+    "interest": "Interest",
+    "total": "Total"
+  },
+  "settings": {
+    "heading": "Settings",
+    "language": "Language",
+    "currency": "Currency",
+    "backup": "Backup",
+    "backupIntro": "Your data lives only on this device. Export a backup file now and then, and import it to move to a new phone or browser.",
+    "export": "Export backup",
+    "import": "Import backup",
+    "importConfirm": "Importing replaces all current data with the backup. Continue?",
+    "importDone": "Backup imported.",
+    "importError": "That file is not a DreamJar backup. Choose a file exported from this app."
+  }
+}
