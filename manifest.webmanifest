@@ -1,9 +1,0 @@
-{
-  "name": "DreamJar",
-  "short_name": "DreamJar",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#EAF2F7",
-  "theme_color": "#1F4E6B",
-  "icons": [{ "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml" }]
-}
